@@ -1,0 +1,19 @@
+{
+  "name": "com-browserify",
+  "version": "0.0.4",
+  "main": "index.js",
+  "author": {
+    "name": "August Dong",
+    "email": "august_dong@yahoo.com"
+  },
+  "dependencies": {
+    "through2": "^0.6.3"
+  },
+  "readme": "# com-browserify #\r\n\r\nA browserify plugin can pack all js\\css\\html files to one js file. ",
+  "readmeFilename": "README.md",
+  "description": "A browserify plugin can pack all js\\css\\html files to one js file.",
+  "_id": "com-browserify@0.0.1",
+  "scripts": {},
+  "_shasum": "094349f139a855db1eeb0ff0ad3e013fa9214b28",
+  "_from": "com-browserify@*"
+}
