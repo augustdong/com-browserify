@@ -44,7 +44,7 @@ var addStyle = require('com-browserify/addStyle');  // 如果想自己插入css�
 console.log(html);  // 输出html代码，可以将其append到DOM上
 console.log(css);   // 输出css代码
 
-addStyle(iframeCss);    // 将css应用到文档上，此时背景应该变为了红色
+addStyle(css);    // 将css应用到文档上，此时背景应该变为了红色
 ```
 
 文件a.html
