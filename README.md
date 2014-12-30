@@ -1,4 +1,4 @@
-##com-browserify
+﻿##com-browserify
 
 这是一个browserify的插件，用于将html\js\css文件打包成一个符合CommonJS规范的js文件
 
@@ -72,5 +72,4 @@ body {
 
 ##联系
 
-Name: August Dong
 E-mail: august_dong@yahoo.com
