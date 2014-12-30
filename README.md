@@ -21,8 +21,8 @@ npm install com-browserify --save-dev
 var com = require('com-browserify');
 browserify: {
     example: {
-        src: ['..'],
-        dest:'..',
+        src: ['a.js'],
+        dest:'dist.js',
         options: {
             preBundleCB: function(b) {
                 b.plugin(com);
@@ -34,7 +34,7 @@ browserify: {
 
 * 书写我们的业务代码：
 
- * 文件a.js
+文件a.js
  
 ```shell
 var html = require('./a.html');
@@ -46,9 +46,8 @@ console.log(css);   // 输出css代码
 
 addStyle(iframeCss);    // 将css应用到文档上，此时背景应该变为了红色
 ```
-    
 
- * 文件a.html
+文件a.html
 
 ```shell
 <div>
@@ -56,7 +55,7 @@ addStyle(iframeCss);    // 将css应用到文档上，此时背景应该变为�
 </div>
 ```
 
- * 文件a.css
+文件a.css
 
 ```shell
 body {
@@ -68,7 +67,7 @@ body {
 
 ##憧憬
 
-* 在现有条件下，更方便实现组件化开发；
+* 在现有条件下，更方便实现组件化开发思想；
 * 解除对browserify的依赖；
 
 ##联系
